@@ -1,15 +1,16 @@
-#node_modules
-# public/*
-#dist
-# .env
-#.env.test
+node_modules
+public/*
+whatstalk
+!public/.gitkeep
+.env
+.env.test
 
-#package-lock.json
-#yarn.lock
-#yarn-error.log
+package-lock.json
+yarn.lock
+yarn-error.log
 
-#/src/config/sentry.js
+/src/config/sentry.js
 
 # Ignore test-related files
-#/coverage.data
-#/coverage/
+/coverage.data
+/coverage/
